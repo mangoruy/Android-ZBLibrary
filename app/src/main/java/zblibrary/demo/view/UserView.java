@@ -82,7 +82,7 @@ public class UserView extends BaseView<User> implements OnClickListener {
 	@Override
 	public void bindView(User data_){
 		super.bindView(data_ != null ? data_ : new User());
-
+		//获取并设置头像
 		Glide.with(context).asBitmap().load(data.getHead()).into(new SimpleTarget<Bitmap>() {
 
 			@Override

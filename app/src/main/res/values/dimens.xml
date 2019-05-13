@@ -3,4 +3,49 @@
 
     <dimen name="qrcode_size">200dp</dimen>
 
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+
+    <!-- 标题属性 -->
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="title_height_half">20dp</dimen>
+
+    <!-- 标题属性 -->
+    <dimen name="check_box_height">30dp</dimen>
+
+    <!--输入框属性-->
+    <dimen name="edittext_heigh">40dp</dimen>
+
+    <!--内边距，外边距-->
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding25">25dp</dimen>
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="login_to_top_margin">90dp</dimen>
+    <dimen name="login_to_top_margin_two">70dp</dimen>
+    <dimen name="setting_to_top_margin">150dp</dimen>
+
+    <!--字体大小-->
+    <dimen name="text_dp">16dp</dimen>
+    <dimen name="text_ddp">18dp</dimen>
+    <dimen name="text_xdp">14dp</dimen>
+    <dimen name="text_mdp">12dp</dimen>
+    <dimen name="text_big">18.0sp</dimen>
+    <dimen name="text_mid">16.0sp</dimen>
+    <dimen name="text_small">14.0sp</dimen>
+    <dimen name="text_tiny">12.0sp</dimen>
+    <dimen name="text_super_tiny">10.0sp</dimen>
+
+    <!--按钮-->
+    <dimen name="btn_heigh">40dp</dimen>
+    <dimen name="small_btn_wid">80dp</dimen>
+
+    <!--小图标宽度-->
+    <dimen name="icon_width">20dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

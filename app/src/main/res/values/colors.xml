@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="region">#8000ff00</color>
+    <color name="listTitle">#ff23323b</color>
+    <color name="text">#ff848f9b</color>
+    <color name="write">#ffffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#d81b1c</color>
+    <color name="colorBlue">#0168bf</color>
+    <color name="colorlightBlue">#79aff1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#333333</color>
+    <color name="colorBlackDark">#000000</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorHintGray">#c3c3c3</color>
+    <color name="colorBackground">#f2f2f2</color>
+    <color name="colorGreen">#058714</color>
+    <color name="colorGreen_qian">#07b28d</color>
+    <color name="colorLightBlue">#02a1f2</color>
+    <color name="colorBianhao">#75cdf5</color>
+    <color name="bantoumingBackground">#a0302f2f</color>
+    <color name="touming">#00000000</color>
+    <color name="scan_corner_color">#0effc2</color>
+    <color name="jt">#8000ff00</color>
+    <color name="aj">#ffffffff</color>
+    <color name="hj">#009999</color>
+    <color name="hjaj">#99FF99</color>
+    <color name="page_bg">#ffffff</color>
+    <color name="set_bg">#00b7bb</color>
+    <color name="set_none_bg">#f3f3f3</color>
+    <color name="bg">#2b2b2b</color>
+    <color name="login_bg">#f2f2f2</color>
+    <color name="devide_bg">#D8D8D8</color>
+</resources>

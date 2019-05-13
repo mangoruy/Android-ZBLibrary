@@ -33,7 +33,8 @@ public class SplashActivity extends Activity {
 
 			@Override
 			public void run() {
-				startActivity(AboutActivity.createIntent(SplashActivity.this));
+				//启动页面后跳转
+				startActivity(MainTabActivity.createIntent(SplashActivity.this));
 				finish();
 			}
 		}, 500);

@@ -104,9 +104,10 @@ public class AboutActivity extends BaseActivity implements OnClickListener, OnLo
 
 		ivAboutGesture = findView(R.id.ivAboutGesture);
 		ivAboutGesture.setVisibility(SettingUtil.isFirstStart ? View.VISIBLE : View.GONE);
-		if (SettingUtil.isFirstStart) {
-			ivAboutGesture.setImageResource(R.drawable.gesture_left);
-		}
+		//没必要加
+		//if (SettingUtil.isFirstStart) {
+		//	ivAboutGesture.setImageResource(R.drawable.gesture_left);
+		//}
 
 		tvAboutAppInfo = findView(R.id.tvAboutAppInfo);
 

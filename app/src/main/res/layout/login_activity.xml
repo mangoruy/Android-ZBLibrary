@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/login_bg">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/login_bg"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="234dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/logo_bg" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Relative_Top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.27"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/userNameText"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#0054aa"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userNameEdit"
+                android:layout_width="390dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:gravity="center_vertical"
+                android:hint="用户名"
+                android:inputType="text"
+                android:paddingBottom="5dp"
+                android:paddingLeft="60dp"
+                android:paddingTop="5dp"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/im_user"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/im_user"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/passWordText"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/userNameText"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#0054aa"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passwordEdit"
+                android:layout_width="390dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/userNameText"
+                android:layout_marginTop="18dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:gravity="center_vertical"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:paddingBottom="5dp"
+                android:paddingLeft="60dp"
+                android:paddingTop="5dp"
+                android:password="true" />
+
+            <ImageView
+                android:id="@+id/im_pass"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/userNameText"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/password" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_below="@+id/userNameText"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="18dp"
+                android:layout_toRightOf="@+id/im_pass"
+                android:src="@drawable/line" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="380dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/chkauto"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/loginshape"
+                android:text="@string/login_button"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/button_setup"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/passwordEdit"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/ip_setting_tv"
+                android:gravity="center_vertical"
+                android:text="安检设置"
+                android:textColor="@color/colorBlue"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/chkauto"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/login_button"
+                android:layout_below="@+id/passwordEdit"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/checkbox_selector"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="#000000"></CheckBox>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/chkauto"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/chkauto"
+                android:text="自动登录"
+                android:textSize="@dimen/text_dp" />
+
+            <TextView
+                android:id="@+id/tv_setall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/chkauto"
+                android:layout_alignRight="@+id/login_button"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/set"
+                android:drawablePadding="8dp"
+                android:text="设置"
+                android:textColor="@color/set_bg"
+                android:textSize="@dimen/text_dp" />
+
+            <TextView
+                android:id="@+id/ip_setting_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/passwordEdit"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/chkauto"
+                android:gravity="center_vertical"
+                android:text="环检设置"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/text_mid"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="2.5"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:visibility="gone">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_service_ip"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="服务器IP"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_service_ip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:digits="0123456789."
+                            android:ems="10"
+                            android:inputType="number">
+
+                            <requestFocus android:layout_width="match_parent" />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_portId"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="端口号"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_portId"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_cartitle"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="车牌头"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_cartitle"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_lineId"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="外检线号"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_lineid"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:digits="0123456789."
+                            android:inputType="number" />
+
+                        <CheckBox
+                            android:id="@+id/wj"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="外检"
+                            android:textColor="#FF0000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_dynamic"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="动态线号"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_dynamic"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:digits="0123456789."
+                            android:inputType="number" />
+
+                        <CheckBox
+                            android:id="@+id/dpdt"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="动态"
+                            android:textColor="#FF0000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_underpan"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="底盘线号"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_underpan"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:digits="0123456789."
+                            android:inputType="number" />
+
+                        <CheckBox
+                            android:id="@+id/dp"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="底盘"
+                            android:textColor="#FF0000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_online"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="客户端"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edit_online"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/editbox_background_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_save"
+                            android:layout_width="88dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_reg"
+                            android:text="保存"
+                            android:textColor="@color/colorWhite" />
+
+                        <CheckBox
+                            android:id="@+id/mtc"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="摩托车"
+                            android:textColor="#FF0000" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/copyright"
+                android:textColor="@color/colorBlue"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_bb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="系统版本号: "
+                android:textColor="@color/colorBlue"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/vkeline" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
