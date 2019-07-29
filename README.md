@@ -6,9 +6,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
-MVP架构的Android快速开发框架，<br />
-提供一套开发标准（View,Data,Event）以及模板和工具类并规范代码。<br />
-封装层级少，简单高效兼容性好。
+MVP 架构，提供一套开发标准（View,Data,Event）以及模板和工具类并规范代码。封装层级少，简单高效兼容性好。
 
 OKHttp、UIL图片加载、ZXing二维码、沉浸状态栏、下载安装、自动缓存以及各种Base、Demo、UI、Util直接用。
 
@@ -183,6 +181,7 @@ public class DemoApplication extends Application {
 ### 关于作者
 <div style="float:left">
   <a href="https://github.com/TommyLemon"><img src="https://avatars1.githubusercontent.com/u/5738175?s=400&u=5b2f372f0c03fae8f249d2d754e38971c2e17b92&v=4" height="90" width="90" ></a>
+  <a href="https://github.com/TommyLemon/Android-ZBLibrary/pull/37"><img src="https://avatars1.githubusercontent.com/u/34591987?s=400&v=4" height="90" width="90" ></a>
   <a href="https://github.com/TommyLemon/Android-ZBLibrary/pull/26"><img src="https://avatars1.githubusercontent.com/u/8438560?s=460&v=4"  height="90" width="90" ></a>
   <a href="https://github.com/TommyLemon/Android-ZBLibrary/pull/31"><img src="https://avatars1.githubusercontent.com/u/45145447?s=400&v=4"  height="90" width="90" ></a>
   <a href="https://github.com/TommyLemon/Android-ZBLibrary/pull/2"><img src="https://avatars0.githubusercontent.com/u/9335665?s=460&v=4"  height="90" width="90" ></a>
