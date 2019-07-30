@@ -37,7 +37,7 @@
                     android:layout_width="18dp"
                     android:layout_height="18dp"
                     android:background="@drawable/circle_blue"
-                    android:text="男"
+                    android:text="新"
                     android:textColor="@color/blue" />
             </LinearLayout>
 

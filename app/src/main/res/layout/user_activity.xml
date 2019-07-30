@@ -46,7 +46,7 @@
 
                 <TextView
                     style="@style/edit_item_left_tv"
-                    android:text="备注" />
+                    android:text="指标资料" />
 
                 <EditText
                     android:id="@+id/etUserRemark"
@@ -90,12 +90,12 @@
 
                 <TextView
                     style="@style/content_item_lf_tv_black"
-                    android:text="地区" />
+                    android:text="考核部门" />
 
                 <TextView
                     style="@style/content_item_rt_tv"
                     android:layout_weight="1"
-                    android:text="浙江杭州" />
+                    android:text="企信部" />
 
                 <ImageView style="@style/content_item_rt_img" />
             </LinearLayout>
@@ -106,7 +106,7 @@
 
                 <TextView
                     style="@style/content_item_lf_tv_black"
-                    android:text="邮箱" />
+                    android:text="考核人员" />
 
                 <TextView
                     style="@style/content_item_rt_tv"
@@ -122,12 +122,12 @@
 
                 <TextView
                     style="@style/content_item_lf_tv_black"
-                    android:text="个性签名" />
+                    android:text="扣分理由" />
 
                 <TextView
                     style="@style/content_item_rt_tv"
                     android:layout_weight="1"
-                    android:text="还没想好呢~" />
+                    android:text="测试理由~" />
 
                 <ImageView style="@style/content_item_rt_img" />
             </LinearLayout>

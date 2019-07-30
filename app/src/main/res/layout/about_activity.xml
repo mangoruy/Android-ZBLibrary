@@ -15,7 +15,7 @@
 
             <Button
                 style="@style/topbar_right_btn"
-                android:text="博客" />
+                android:text="网页浏览方式" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -36,7 +36,7 @@
                         android:id="@+id/tvAboutAppInfo"
                         style="@style/text_big_black"
                         android:layout_marginBottom="30dp"
-                        android:text="坐标标准库\n3.0" />
+                        android:text="考核指标看板\nv0.1" />
 
                     <LinearLayout
                         android:id="@+id/llAboutMainTabActivity"
@@ -79,7 +79,7 @@
                         <TextView
                             style="@style/content_item_lf_tv"
                             android:layout_weight="1"
-                            android:text="更新日志" />
+                            android:text="内容变更测试" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -95,7 +95,7 @@
                         <TextView
                             style="@style/content_item_lf_tv"
                             android:layout_weight="1"
-                            android:text="分享" />
+                            android:text="分享功能测试" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -111,7 +111,7 @@
                         <TextView
                             style="@style/content_item_lf_tv"
                             android:layout_weight="1"
-                            android:text="赏5星好评" />
+                            android:text="代码测试" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -133,7 +133,7 @@
                         <TextView
                             style="@style/content_item_rt_tv"
                             android:layout_weight="1"
-                            android:text="Tommy Lemon" />
+                            android:text="yang" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -149,12 +149,12 @@
                         <TextView
                             style="@style/content_item_lf_tv"
                             android:layout_weight="1"
-                            android:text="博客" />
+                            android:text="网页测试" />
 
                         <TextView
                             style="@style/content_item_rt_tv"
                             android:layout_weight="1"
-                            android:text="my.oschina.net/u/2437072" />
+                            android:text="www.baidu.com" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -169,12 +169,12 @@
 
                         <TextView
                             style="@style/content_item_lf_tv"
-                            android:text="联系我们" />
+                            android:text="邮件发送测试" />
 
                         <TextView
                             style="@style/content_item_rt_tv"
                             android:layout_weight="1"
-                            android:text="1184482681@qq.com" />
+                            android:text="1036041638@qq.com" />
 
                         <ImageView
                             style="@style/content_item_rt_img"
@@ -198,7 +198,7 @@
                         style="@style/text_middle"
                         android:layout_marginBottom="180dp"
                         android:lineSpacingMultiplier="1.2"
-                        android:text="扫一扫二维码 下载ZBLibrary" />
+                        android:text="二维码生成" />
                 </LinearLayout>
             </ScrollView>
         </RelativeLayout>

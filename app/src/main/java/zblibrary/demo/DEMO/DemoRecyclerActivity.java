@@ -137,7 +137,7 @@ implements OnBottomDragListener {
 
 		List<Entry<String, String>> list = new ArrayList<Entry<String, String>>();
 		for (int i = 0; i < 6; i++) {
-			list.add(new Entry<String, String>(getPictureUrl(i + 6*page), "联系人" + i + 6*page));
+			list.add(new Entry<String, String>(getPictureUrl(i + 6*page), "考核分数" + i + 6*page));
 		}
 
 		onLoadSucceed(page, list);

@@ -121,13 +121,13 @@ public class DemoTabFragment extends BaseTabFragment implements OnClickListener 
 	public void initData() {//必须在onCreate方法内调用
 		super.initData();
 
-		tvDemoTabLeft.setText(StringUtil.isNotEmpty(city, true) ? StringUtil.getTrimedString(city) : "杭州");
+		tvDemoTabLeft.setText(StringUtil.isNotEmpty(city, true) ? StringUtil.getTrimedString(city) : "企信部");
 	}
 
 
 	@Override
 	protected String[] getTabNames() {
-		return new String[] {"附近", "热门"};
+		return new String[] {"本月", "历史"};
 	}
 
 	@Override
@@ -154,7 +154,7 @@ public class DemoTabFragment extends BaseTabFragment implements OnClickListener 
 	public void initEvent() {//必须在onCreate方法内调用
 		super.initEvent();
 
-		tvDemoTabLeft.setOnClickListener(this);
+		//tvDemoTabLeft.setOnClickListener(this);
 		findView(R.id.tvDemoTabRight).setOnClickListener(this);
 	}
 
@@ -165,7 +165,7 @@ public class DemoTabFragment extends BaseTabFragment implements OnClickListener 
 		super.onClick(v);
 		switch (v.getId()) {
 		case R.id.tvDemoTabLeft:
-			selectPlace();
+			//selectPlace();
 			break;
 		case R.id.tvDemoTabRight:
 			selectMan();

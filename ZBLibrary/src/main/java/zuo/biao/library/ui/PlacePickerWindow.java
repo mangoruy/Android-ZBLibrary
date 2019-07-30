@@ -162,8 +162,8 @@ public class PlacePickerWindow extends BaseViewBottomWindow<List<Entry<Integer, 
 				}
 
 				final ArrayList<GridPickerConfig> configList = new ArrayList<GridPickerConfig>();
-				configList.add(new GridPickerConfig("", "浙江", 10));
-				configList.add(new GridPickerConfig("", "杭州", 0));
+				//configList.add(new GridPickerConfig("", "浙江", 10));
+				//configList.add(new GridPickerConfig("", "杭州", 0));
 
 				final ArrayList<String> selectedItemNameList = new ArrayList<String>();
 				for (GridPickerConfig gpcb : configList) {

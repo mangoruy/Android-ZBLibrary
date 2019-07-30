@@ -122,7 +122,7 @@ public class DemoListFragment extends BaseListFragment<Entry<String, String>, Li
 
 		List<Entry<String, String>> list = new ArrayList<Entry<String, String>>();
 		for (int i = 0; i < 64; i++) {
-			list.add(new Entry<String, String>("联系人" + i , String.valueOf(1311736568 + i*i)));
+			list.add(new Entry<String, String>("考核分数" + i , String.valueOf(70 + i*i)));
 		}
 
 		onLoadSucceed(page, list);

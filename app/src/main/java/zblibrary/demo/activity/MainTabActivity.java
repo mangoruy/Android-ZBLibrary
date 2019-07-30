@@ -73,7 +73,7 @@ public class MainTabActivity extends BaseBottomTabActivity implements OnBottomDr
 		super.initView();
 		exitAnim = R.anim.bottom_push_out;
 
-		demoTabFragment = DemoTabFragment.createInstance("杭州");
+		demoTabFragment = DemoTabFragment.createInstance("企信部");
 	}
 
 
@@ -109,7 +109,7 @@ public class MainTabActivity extends BaseBottomTabActivity implements OnBottomDr
 		}
 	};
 
-	private static final String[] TAB_NAMES = {"主页", "消息", "发现", "设置"};
+	private static final String[] TAB_NAMES = {"主页", "消息", "搜索", "设置"};
 	@Override
 	protected void selectTab(int position) {
 		//导致切换时闪屏，建议去掉BottomTabActivity中的topbar，在fragment中显示topbar

@@ -60,7 +60,7 @@ public class TestUtil {
 			user.setSex(i%3);
 			user.setHead(URLS[index]);
 			user.setName("Name" + userId);
-			user.setPhone(String.valueOf(1311736568 + (i + userId)*(page + userId)));
+			user.setPhone(String.valueOf(70 + (i + userId)*(page + userId)));
 			user.setStarred(i%2 == 0);
 			list.add(user);
 		}

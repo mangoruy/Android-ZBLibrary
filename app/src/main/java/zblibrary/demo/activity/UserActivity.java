@@ -154,7 +154,8 @@ public class UserActivity extends BaseActivity implements OnClickListener, OnBot
 				//				uvlUser.bindView(user);//方式二
 				userView.bindView(user);//方式三
 
-				etUserRemark.setText(StringUtil.getTrimedString(user.getHead()));
+				//etUserRemark.setText(StringUtil.getTrimedString(user.getHead()));
+				etUserRemark.setText("测试字符串");
 				tvUserTag.setText(StringUtil.getTrimedString(user.getTag()));
 			}
 		});

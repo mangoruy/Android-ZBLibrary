@@ -13,7 +13,7 @@
         <TextView
             style="@style/topbar_title"
             android:layout_centerHorizontal="true"
-            android:text="二维码名片" />
+            android:text="生成二维码" />
     </RelativeLayout>
 
     <LinearLayout
@@ -31,7 +31,7 @@
         <TextView
             android:id="@+id/tvQRCodeName"
             style="@style/text_big_black"
-            android:text="姓名" />
+            android:text="QRCodename" />
 
         <RelativeLayout
             android:layout_width="@dimen/qrcode_size"
@@ -54,7 +54,7 @@
         <TextView
             style="@style/text_middle"
             android:lineSpacingMultiplier="1.2"
-            android:text="扫一扫二维码 添加联系人" />
+            android:text="扫一扫二维码" />
     </LinearLayout>
 
 </LinearLayout>

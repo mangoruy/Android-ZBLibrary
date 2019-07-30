@@ -9,7 +9,7 @@
             style="@style/topbar_left_btn"
             android:drawableRight="@drawable/down2_small"
             android:maxWidth="120dp"
-            android:text="杭州" />
+            android:text="企信部" />
 
         <LinearLayout
             android:id="@id/llBaseTabTabContainer"

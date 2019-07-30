@@ -95,12 +95,12 @@ public class UserView extends BaseView<User> implements OnClickListener {
 
 		tvUserViewSex.setBackgroundResource(data.getSex() == User.SEX_FEMALE
 				? R.drawable.circle_pink : R.drawable.circle_blue);
-		tvUserViewSex.setText(data.getSex() == User.SEX_FEMALE ?  "女" : "男");
+		tvUserViewSex.setText(data.getSex() == User.SEX_FEMALE ?  "急" : "重");
 		tvUserViewSex.setTextColor(getColor(data.getSex() == User.SEX_FEMALE ? R.color.pink : R.color.blue));
 
 		tvUserViewName.setText(StringUtil.getTrimedString(data.getName()));
-		tvUserViewId.setText("ID:" + data.getId());
-		tvUserViewNumber.setText("Phone:" + StringUtil.getNoBlankString(data.getPhone()));
+		tvUserViewId.setText("编号:" + data.getId());
+		tvUserViewNumber.setText("分数:" + StringUtil.getNoBlankString(data.getPhone()));
 	}
 
 	@Override
